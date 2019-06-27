@@ -1,0 +1,26 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Account] (Table)
+       [dbo].[Employee] (Table)
+       [dbo].[FiscalPeriod] (Table)
+       [dbo].[FiscalQuarter] (Table)
+       [dbo].[FiscalYear] (Table)
+       [dbo].[ObjectCode] (Table)
+       [dbo].[ProjectCode] (Table)
+       [dbo].[SubAccount] (Table)
+       [dbo].[SubObjectCode] (Table)
+       [dbo].[FK_Employee_SNetID] (Foreign Key)
+       [dbo].[FK_FiscalPeriod_QuarterID_FiscalQuarter_ID] (Foreign Key)
+       [dbo].[FK_SubAccount_AccountNumber_Account_Number] (Foreign Key)
+
+** Supporting actions

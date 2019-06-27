@@ -1,0 +1,70 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[PK_FiscalYear] (Primary Key)
+     Alter
+       [dbo].[Account] (Table)
+       [dbo].[Employee] (Table)
+       [dbo].[FiscalPeriod] (Table)
+       [dbo].[FiscalQuarter] (Table)
+       [dbo].[FiscalYear] (Table)
+       [dbo].[ObjectCode] (Table)
+       [dbo].[ProjectCode] (Table)
+       [dbo].[SubAccount] (Table)
+       [dbo].[SubObjectCode] (Table)
+     Create
+       [dbo].[PK_FiscalYear_FiscalYear] (Primary Key)
+       [dbo].[AccountHist] (Table)
+       [dbo].[AccountTemp] (Table)
+       [dbo].[EmployeeHist] (Table)
+       [dbo].[EmployeeTemp] (Table)
+       [dbo].[FiscalPeriodHist] (Table)
+       [dbo].[FiscalPeriodTemp] (Table)
+       [dbo].[FiscalQuarterHist] (Table)
+       [dbo].[FiscalQuarterTemp] (Table)
+       [dbo].[FiscalYearHist] (Table)
+       [dbo].[FiscalYearTemp] (Table)
+       [dbo].[ObjectCodeHist] (Table)
+       [dbo].[ObjectCodeTemp] (Table)
+       [dbo].[ProjectCodeHist] (Table)
+       [dbo].[ProjectCodeTemp] (Table)
+       [dbo].[SubAccountHist] (Table)
+       [dbo].[SubAccountTemp] (Table)
+       [dbo].[SubObjectCodeHist] (Table)
+       [dbo].[SubObjectCodeTemp] (Table)
+       Default Constraint: unnamed constraint on [dbo].[AccountHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[EmployeeHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[FiscalPeriodHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[FiscalQuarterHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[FiscalYearHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[ObjectCodeHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[ProjectCodeHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[SubAccountHist] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[SubObjectCodeHist] (Default Constraint)
+       [dbo].[ImportAccount] (Procedure)
+       [dbo].[ImportEmployee] (Procedure)
+       [dbo].[ImportFiscalPeriod] (Procedure)
+       [dbo].[ImportFiscalQuarter] (Procedure)
+       [dbo].[ImportFiscalYear] (Procedure)
+       [dbo].[ImportObjectCode] (Procedure)
+       [dbo].[ImportProjectCode] (Procedure)
+       [dbo].[ImportSubAccount] (Procedure)
+       [dbo].[ImportSubObjectCode] (Procedure)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_FiscalPeriod_FiscalYear_Year] (Foreign Key)
+     Create
+       [dbo].[FK_FiscalPeriod_FiscalYear_Year] (Foreign Key)
+
+If this deployment is executed, changes to [dbo].[Employee] might introduce run-time errors in [dbo].[ImportData].
+

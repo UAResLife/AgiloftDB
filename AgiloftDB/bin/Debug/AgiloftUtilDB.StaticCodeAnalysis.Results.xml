@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Problems>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportAccount.sql</SourceFile>
+    <Line>8</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportAccount.sql</SourceFile>
+    <Line>20</Line>
+    <Column>10</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportAccount.sql</SourceFile>
+    <Line>46</Line>
+    <Column>30</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalPeriod.sql</SourceFile>
+    <Line>9</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalPeriod.sql</SourceFile>
+    <Line>24</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalPeriod.sql</SourceFile>
+    <Line>61</Line>
+    <Column>36</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalQuarter.sql</SourceFile>
+    <Line>10</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalQuarter.sql</SourceFile>
+    <Line>20</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalQuarter.sql</SourceFile>
+    <Line>49</Line>
+    <Column>37</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalYear.sql</SourceFile>
+    <Line>10</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalYear.sql</SourceFile>
+    <Line>22</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportFiscalYear.sql</SourceFile>
+    <Line>51</Line>
+    <Column>34</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportObjectCode.sql</SourceFile>
+    <Line>9</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportObjectCode.sql</SourceFile>
+    <Line>32</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportObjectCode.sql</SourceFile>
+    <Line>57</Line>
+    <Column>34</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportProjectCode.sql</SourceFile>
+    <Line>8</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportProjectCode.sql</SourceFile>
+    <Line>19</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportProjectCode.sql</SourceFile>
+    <Line>49</Line>
+    <Column>35</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportSubAccount.sql</SourceFile>
+    <Line>8</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportSubAccount.sql</SourceFile>
+    <Line>20</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportSubAccount.sql</SourceFile>
+    <Line>53</Line>
+    <Column>34</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportEmployee.sql</SourceFile>
+    <Line>9</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportEmployee.sql</SourceFile>
+    <Line>47</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportEmployee.sql</SourceFile>
+    <Line>97</Line>
+    <Column>32</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportSubObjectCode.sql</SourceFile>
+    <Line>8</Line>
+    <Column>12</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportSubObjectCode.sql</SourceFile>
+    <Line>31</Line>
+    <Column>11</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+  <Problem>
+    <Rule>Microsoft.Rules.Data.SR0001</Rule>
+    <ProblemDescription>The shape of the result set produced by a SELECT * statement will change if the underlying table or view structure changes.</ProblemDescription>
+    <SourceFile>E:\Projects\AgiloftUtilDB\AgiloftUtilDB\Stored Procedures\ImportSubObjectCode.sql</SourceFile>
+    <Line>58</Line>
+    <Column>37</Column>
+    <Severity>Warning</Severity>
+  </Problem>
+</Problems>

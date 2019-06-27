@@ -1,0 +1,59 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[DF_Account_DateChanged] (Default Constraint)
+       [dbo].[DF_AccountHist_DateMoved] (Default Constraint)
+       [dbo].[DF_Employee_DateChanged] (Default Constraint)
+       [dbo].[DF_EmployeeHist_DateMoved] (Default Constraint)
+       [dbo].[DF_DiscalPeriod_DateChanged] (Default Constraint)
+       [dbo].[DF_FiscalPeriodHist_DateMoved] (Default Constraint)
+       [dbo].[DF_FiscalQuarter_DateChanged] (Default Constraint)
+       [dbo].[DF_FiscalQuarterHist_DateMoved] (Default Constraint)
+       [dbo].[DF_FiscalYear_DateChanged] (Default Constraint)
+       [dbo].[DF_FiscalYearHist_DateMoved] (Default Constraint)
+       [dbo].[DF_ObjectCode_DateChanged] (Default Constraint)
+       [dbo].[DF_ObjectCodeHist_DateMoved] (Default Constraint)
+       [dbo].[DF_ProjectCode_DateChanged] (Default Constraint)
+       [dbo].[DF_ProjectCodeHist_DateMoved] (Default Constraint)
+       [dbo].[DF_SubAccount_DateChanged] (Default Constraint)
+       [dbo].[DF_SubAccountHist_DateMoved] (Default Constraint)
+       [dbo].[DF_SubObjectCode_DateChanged] (Default Constraint)
+       [dbo].[DF_SubObjectCodeHist_DateMoved] (Default Constraint)
+     Create
+       [dbo].[DF_Account_DateChanged] (Default Constraint)
+       [dbo].[DF_AccountHist_DateMoved] (Default Constraint)
+       [dbo].[DF_Employee_DateChanged] (Default Constraint)
+       [dbo].[DF_EmployeeHist_DateMoved] (Default Constraint)
+       [dbo].[DF_DiscalPeriod_DateChanged] (Default Constraint)
+       [dbo].[DF_FiscalPeriodHist_DateMoved] (Default Constraint)
+       [dbo].[DF_FiscalQuarter_DateChanged] (Default Constraint)
+       [dbo].[DF_FiscalQuarterHist_DateMoved] (Default Constraint)
+       [dbo].[DF_FiscalYear_DateChanged] (Default Constraint)
+       [dbo].[DF_FiscalYearHist_DateMoved] (Default Constraint)
+       [dbo].[DF_ObjectCode_DateChanged] (Default Constraint)
+       [dbo].[DF_ObjectCodeHist_DateMoved] (Default Constraint)
+       [dbo].[DF_ProjectCode_DateChanged] (Default Constraint)
+       [dbo].[DF_ProjectCodeHist_DateMoved] (Default Constraint)
+       [dbo].[DF_SubAccount_DateChanged] (Default Constraint)
+       [dbo].[DF_SubAccountHist_DateMoved] (Default Constraint)
+       [dbo].[DF_SubObjectCode_DateChanged] (Default Constraint)
+       [dbo].[DF_SubObjectCodeHist_DateMoved] (Default Constraint)
+     Alter
+       [dbo].[ImportFiscalPeriod] (Procedure)
+       [dbo].[ImportFiscalQuarter] (Procedure)
+       [dbo].[ImportFiscalYear] (Procedure)
+       [dbo].[ImportObjectCode] (Procedure)
+       [dbo].[ImportProjectCode] (Procedure)
+       [dbo].[ImportSubAccount] (Procedure)
+       [dbo].[ImportSubObjectCode] (Procedure)
+
+** Supporting actions

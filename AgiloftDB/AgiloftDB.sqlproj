@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Name>AgiloftDB</Name>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectVersion>4.1</ProjectVersion>
+    <ProjectGuid>{9ca0e8e8-6fa6-43bb-996a-fdc2ef6f86eb}</ProjectGuid>
+    <DSP>Microsoft.Data.Tools.Schema.Sql.Sql120DatabaseSchemaProvider</DSP>
+    <OutputType>Database</OutputType>
+    <RootPath>
+    </RootPath>
+    <RootNamespace>AgiloftDB</RootNamespace>
+    <AssemblyName>AgiloftDB</AssemblyName>
+    <ModelCollation>1033, CI</ModelCollation>
+    <DefaultFileStructure>BySchemaAndSchemaType</DefaultFileStructure>
+    <DeployToDatabase>True</DeployToDatabase>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetLanguage>CS</TargetLanguage>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <SqlServerVerification>False</SqlServerVerification>
+    <IncludeCompositeObjects>True</IncludeCompositeObjects>
+    <TargetDatabaseSet>True</TargetDatabaseSet>
+    <Recovery>SIMPLE</Recovery>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <BuildScriptName>$(MSBuildProjectName).sql</BuildScriptName>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunSqlCodeAnalysis>True</RunSqlCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <!-- Default to the v11.0 targets path if the targets file for the current VS version is not found -->
+    <SSDTExists Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets')">True</SSDTExists>
+    <VisualStudioVersion Condition="'$(SSDTExists)' == ''">11.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Condition="'$(SQLDBExtensionsRefPath)' != ''" Project="$(SQLDBExtensionsRefPath)\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
+  <ItemGroup>
+    <Folder Include="Properties" />
+    <Folder Include="Tables" />
+    <Folder Include="Scripts" />
+    <Folder Include="Stored Procedures" />
+    <Folder Include="Functions" />
+    <Folder Include="Views" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\Employee.sql" />
+    <Build Include="Stored Procedures\ImportSubObjectCode.sql" />
+    <Build Include="Stored Procedures\ImportEmployee.sql" />
+    <Build Include="Stored Procedures\ImportFiscalYear.sql" />
+    <Build Include="Stored Procedures\ImportFiscalQuarter.sql" />
+    <Build Include="Stored Procedures\ImportFiscalPeriod.sql" />
+    <Build Include="Stored Procedures\ImportAccount.sql" />
+    <Build Include="Stored Procedures\ImportObjectCode.sql" />
+    <Build Include="Stored Procedures\ImportProjectCode.sql" />
+    <Build Include="Stored Procedures\ImportSubAccount.sql" />
+    <Build Include="Tables\AccountHist.sql" />
+    <Build Include="Tables\AccountTemp.sql" />
+    <Build Include="Tables\EmployeeTemp.sql" />
+    <Build Include="Tables\EmployeeHist.sql" />
+    <Build Include="Tables\FiscalPeriodTemp.sql" />
+    <Build Include="Tables\FiscalPeriodHist.sql" />
+    <Build Include="Tables\FiscalQuarterTemp.sql" />
+    <Build Include="Tables\FiscalQuarterHist.sql" />
+    <Build Include="Tables\FiscalYearTemp.sql" />
+    <Build Include="Tables\FiscalYearHist.sql" />
+    <Build Include="Tables\ObjectCodeTemp.sql" />
+    <Build Include="Tables\ObjectCodeHist.sql" />
+    <Build Include="Tables\ProjectCodeTemp.sql" />
+    <Build Include="Tables\ProjectCodeHist.sql" />
+    <Build Include="Tables\SubAccountTemp.sql" />
+    <Build Include="Tables\SubAccountHist.sql" />
+    <Build Include="Tables\SubObjectCodeTemp.sql" />
+    <Build Include="Tables\SubObjectCodeHist.sql" />
+    <Build Include="Functions\NoDashOrNull.sql" />
+    <Build Include="Views\Employee_vw.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="AgiloftDB.refactorlog" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AgiloftDB.publish.xml" />
+    <None Include="AgiloftDB_1.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="Tables\FiscalPeriod.sql" />
+    <Build Include="Tables\FiscalQuarter.sql" />
+    <Build Include="Tables\FiscalYear.sql" />
+    <Build Include="Tables\ObjectCode.sql" />
+    <Build Include="Tables\ProjectCode.sql" />
+    <Build Include="Tables\SubAccount.sql" />
+    <Build Include="Tables\SubObjectCode.sql" />
+    <Build Include="Tables\Account.sql" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+E:\Projects\AgiloftUtilDB\AgiloftUtilDB\bin\Debug\AgiloftUtilDB.dacpac
+E:\Projects\AgiloftUtilDB\AgiloftUtilDB\bin\Debug\AgiloftUtilDB.dll
+E:\Projects\AgiloftUtilDB\AgiloftUtilDB\bin\Debug\AgiloftUtilDB.pdb
+E:\Projects\AgiloftUtilDB\AgiloftUtilDB\obj\Debug\AgiloftUtilDB.dll
+E:\Projects\AgiloftUtilDB\AgiloftUtilDB\obj\Debug\AgiloftUtilDB.pdb
+E:\Projects\AgiloftUtilDB\AgiloftUtilDB\obj\Debug\AgiloftUtilDB.sqlprojAssemblyReference.cache
